@@ -1,0 +1,321 @@
+2023-11-06 18:38:26,707 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 55, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-06 18:38:26,711 - root - INFO - Sidebar frame created successfully.
+2023-11-06 18:38:26,725 - root - INFO - Tabview created successfully.
+2023-11-06 18:38:26,727 - root - INFO - Widgets for AI tab created successfully.
+2023-11-06 18:38:26,740 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-06 18:38:26,744 - root - INFO - Question entry and submit button created successfully.
+2023-11-06 18:38:26,746 - root - INFO - Response textbox created successfully.
+2023-11-06 18:38:26,749 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-06 18:38:26,749 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-06 18:40:13,622 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 55, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-06 18:40:13,626 - root - INFO - Sidebar frame created successfully.
+2023-11-06 18:40:13,639 - root - INFO - Tabview created successfully.
+2023-11-06 18:40:13,642 - root - INFO - Widgets for AI tab created successfully.
+2023-11-06 18:40:13,654 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-06 18:40:13,657 - root - INFO - Question entry and submit button created successfully.
+2023-11-06 18:40:13,659 - root - INFO - Response textbox created successfully.
+2023-11-06 18:40:13,663 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-06 18:40:13,664 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-06 18:41:10,151 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 48, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-06 18:41:10,152 - root - INFO - Sidebar frame created successfully.
+2023-11-06 18:41:10,164 - root - INFO - Tabview created successfully.
+2023-11-06 18:41:10,166 - root - INFO - Widgets for AI tab created successfully.
+2023-11-06 18:41:10,179 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-06 18:41:10,182 - root - INFO - Question entry and submit button created successfully.
+2023-11-06 18:41:10,185 - root - INFO - Response textbox created successfully.
+2023-11-06 18:41:10,188 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-06 18:41:10,188 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-06 19:03:20,972 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 48, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-06 19:03:20,973 - root - INFO - Sidebar frame created successfully.
+2023-11-06 19:03:20,985 - root - INFO - Tabview created successfully.
+2023-11-06 19:03:20,988 - root - INFO - Widgets for AI tab created successfully.
+2023-11-06 19:03:21,003 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-06 19:03:21,007 - root - INFO - Question entry and submit button created successfully.
+2023-11-06 19:03:21,009 - root - INFO - Response textbox created successfully.
+2023-11-06 19:03:21,012 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-06 19:03:21,012 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-06 19:04:04,007 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 48, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-06 19:04:04,010 - root - INFO - Sidebar frame created successfully.
+2023-11-06 19:04:04,023 - root - INFO - Tabview created successfully.
+2023-11-06 19:04:04,026 - root - INFO - Widgets for AI tab created successfully.
+2023-11-06 19:04:04,039 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-06 19:04:04,043 - root - INFO - Question entry and submit button created successfully.
+2023-11-06 19:04:04,045 - root - INFO - Response textbox created successfully.
+2023-11-06 19:04:04,049 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-06 19:04:04,049 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-06 19:05:18,543 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 48, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-06 19:05:18,545 - root - INFO - Sidebar frame created successfully.
+2023-11-06 19:05:18,559 - root - INFO - Tabview created successfully.
+2023-11-06 19:05:18,562 - root - INFO - Widgets for AI tab created successfully.
+2023-11-06 19:05:18,575 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-06 19:05:18,580 - root - INFO - Question entry and submit button created successfully.
+2023-11-06 19:05:18,584 - root - INFO - Response textbox created successfully.
+2023-11-06 19:05:18,587 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-06 19:05:18,587 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-06 19:06:58,779 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-06 19:06:58,781 - root - INFO - Sidebar frame created successfully.
+2023-11-06 19:06:58,794 - root - INFO - Tabview created successfully.
+2023-11-06 19:06:58,796 - root - INFO - Widgets for AI tab created successfully.
+2023-11-06 19:06:58,808 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-06 19:06:58,812 - root - INFO - Question entry and submit button created successfully.
+2023-11-06 19:06:58,815 - root - INFO - Response textbox created successfully.
+2023-11-06 19:06:58,818 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-06 19:06:58,818 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-06 19:07:39,436 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-06 19:07:39,437 - root - INFO - Sidebar frame created successfully.
+2023-11-06 19:07:39,452 - root - INFO - Tabview created successfully.
+2023-11-06 19:07:39,454 - root - INFO - Widgets for AI tab created successfully.
+2023-11-06 19:07:39,468 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-06 19:07:39,473 - root - INFO - Question entry and submit button created successfully.
+2023-11-06 19:07:39,476 - root - INFO - Response textbox created successfully.
+2023-11-06 19:07:39,481 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-06 19:07:39,481 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-06 19:08:58,654 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-06 19:08:58,657 - root - INFO - Sidebar frame created successfully.
+2023-11-06 19:08:58,669 - root - INFO - Tabview created successfully.
+2023-11-06 19:08:58,672 - root - INFO - Widgets for AI tab created successfully.
+2023-11-06 19:08:58,687 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-06 19:08:58,691 - root - INFO - Question entry and submit button created successfully.
+2023-11-06 19:08:58,693 - root - INFO - Response textbox created successfully.
+2023-11-06 19:08:58,697 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-06 19:08:58,698 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:01:25,478 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:01:25,488 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:01:25,507 - root - INFO - Tabview created successfully.
+2023-11-07 00:01:25,511 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:01:25,530 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:01:25,536 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:01:25,540 - root - INFO - Response textbox created successfully.
+2023-11-07 00:01:25,544 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:01:25,544 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:24:33,721 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:24:33,724 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:24:33,744 - root - INFO - Tabview created successfully.
+2023-11-07 00:24:33,748 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:24:33,768 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:24:33,772 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:24:33,777 - root - INFO - Response textbox created successfully.
+2023-11-07 00:24:33,784 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:24:33,784 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:26:42,260 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:26:42,264 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:26:42,281 - root - INFO - Tabview created successfully.
+2023-11-07 00:26:42,284 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:26:42,305 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:26:42,311 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:26:42,313 - root - INFO - Response textbox created successfully.
+2023-11-07 00:26:42,319 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:26:42,319 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:27:32,670 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:27:32,673 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:27:32,699 - root - INFO - Tabview created successfully.
+2023-11-07 00:27:32,703 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:27:32,724 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:27:32,730 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:27:32,734 - root - INFO - Response textbox created successfully.
+2023-11-07 00:27:32,739 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:27:32,739 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:36:56,683 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:36:56,686 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:36:56,705 - root - INFO - Tabview created successfully.
+2023-11-07 00:36:56,709 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:36:56,727 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:36:56,734 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:36:56,738 - root - INFO - Response textbox created successfully.
+2023-11-07 00:36:56,744 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:36:56,745 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:38:32,517 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:38:32,520 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:38:32,535 - root - INFO - Tabview created successfully.
+2023-11-07 00:38:32,539 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:38:32,557 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:38:32,565 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:38:32,569 - root - INFO - Response textbox created successfully.
+2023-11-07 00:38:32,573 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:38:32,573 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:46:27,684 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:46:27,686 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:46:27,709 - root - INFO - Tabview created successfully.
+2023-11-07 00:46:27,713 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:46:27,728 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:46:27,733 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:46:27,736 - root - INFO - Response textbox created successfully.
+2023-11-07 00:46:27,739 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:46:27,740 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:46:36,420 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:46:36,422 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:46:36,440 - root - INFO - Tabview created successfully.
+2023-11-07 00:46:36,444 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:46:36,467 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:46:36,474 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:46:36,478 - root - INFO - Response textbox created successfully.
+2023-11-07 00:46:36,485 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:46:36,485 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:47:26,741 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:47:26,744 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:47:26,768 - root - INFO - Tabview created successfully.
+2023-11-07 00:47:26,773 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:47:26,798 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:47:26,806 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:47:26,813 - root - INFO - Response textbox created successfully.
+2023-11-07 00:47:26,813 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:47:26,813 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:52:01,483 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:52:01,487 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:52:01,509 - root - INFO - Tabview created successfully.
+2023-11-07 00:52:01,515 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:52:01,539 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:52:01,550 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:52:01,555 - root - INFO - Response textbox created successfully.
+2023-11-07 00:52:01,561 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:52:01,561 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:52:05,579 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 00:52:05,582 - root - INFO - Sidebar frame created successfully.
+2023-11-07 00:52:05,599 - root - INFO - Tabview created successfully.
+2023-11-07 00:52:05,602 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 00:52:05,625 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 00:52:05,630 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 00:52:05,633 - root - INFO - Response textbox created successfully.
+2023-11-07 00:52:05,637 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 00:52:05,637 - root - INFO - Response canvas for DALL-E created successfully.
+2023-11-07 00:56:24,970 - openai - INFO - error_code=content_policy_violation error_message='Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-11-07 00:56:24,971 - root - ERROR - OpenAI API Error in create_image_response: Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.
+2023-11-07 00:56:24,971 - root - ERROR - Error generating/displaying DALL-E image: Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.
+2023-11-07 00:58:09,778 - openai - INFO - error_code=content_policy_violation error_message='Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-11-07 00:58:09,780 - root - ERROR - OpenAI API Error in create_image_response: Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.
+2023-11-07 00:58:09,780 - root - ERROR - Error generating/displaying DALL-E image: Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.
+2023-11-07 01:09:02,610 - root - ERROR - Failed to configure grid layout.
+Traceback (most recent call last):
+  File "C:\Users\slavo\PycharmProjects\Synthetica\gui\app.py", line 49, in init_ui
+    self.appearance_mode_optionemenu.set("Dark")
+  File "C:\Users\slavo\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 2383, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'appearance_mode_optionemenu'
+2023-11-07 01:09:02,613 - root - INFO - Sidebar frame created successfully.
+2023-11-07 01:09:02,632 - root - INFO - Tabview created successfully.
+2023-11-07 01:09:02,635 - root - INFO - Widgets for AI tab created successfully.
+2023-11-07 01:09:02,652 - root - INFO - OpenAI credentials widgets created successfully.
+2023-11-07 01:09:02,658 - root - INFO - Question entry and submit button created successfully.
+2023-11-07 01:09:02,661 - root - INFO - Response textbox created successfully.
+2023-11-07 01:09:02,664 - root - INFO - Radio buttons for ChatGPT and DALL-E created successfully.
+2023-11-07 01:09:02,664 - root - INFO - Response canvas for DALL-E created successfully.
