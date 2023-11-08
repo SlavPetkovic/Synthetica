@@ -218,15 +218,6 @@ class Application(customtkinter.CTk):
             logging.error(f"Error submitting question: {e}")
 
 
-
-    # def fetch_response(self, question):
-    #     try:
-    #         response = self.gpt.get_response(question)
-    #         self.response_text.delete("1.0", END)
-    #         self.response_text.insert(END, response)
-    #     except Exception as e:
-    #         logging.error(f"Error fetching response: {e}")
-
     def update_status_message(self, message, count=0):
         if self.fetch_complete:  # Stop updating the message if fetch is complete
             return
@@ -370,7 +361,6 @@ class Application(customtkinter.CTk):
         except Exception as e:
             logging.error(f"Error switching response widget: {e}")
 
-        # Add this new method for updating the canvas message
     def update_canvas_message(self, message, count=0):
         if self.image_generation_complete:  # Stop updating the message if image generation is complete
             return
