@@ -4,13 +4,13 @@ import traceback
 from tkinter import simpledialog, messagebox, Text, END
 import customtkinter
 from threading import Thread
+from PIL import Image, ImageTk
 import requests, io
 import logging
 from api.openai_interface import GPTInterface
 from database.db_manager import Database
 from CTkMessagebox import CTkMessagebox
 from tkinter import filedialog
-from PIL import Image, ImageTk
 
 customtkinter.set_appearance_mode("Dark")
 customtkinter.set_default_color_theme("blue")
@@ -38,7 +38,6 @@ class Application(customtkinter.CTk):
             self.gpt = GPTInterface(api_token, org_id)
             self.radio_var = tk.IntVar(value=0)
             self.init_ui()
-            self.load_default_chatgpt_image()
         except Exception as e:
             self.logger.error(f"Failed to initialize the application: {e}")
             self.logger.debug(traceback.format_exc())
@@ -49,7 +48,6 @@ class Application(customtkinter.CTk):
             self.grid_columnconfigure(1, weight=1)
             self.grid_columnconfigure((2, 3), weight=0)
             self.grid_rowconfigure((0, 1, 2), weight=1)
-
             # self.appearance_mode_optionemenu.set("Dark")
             logging.info("Grid layout configured successfully.")
         except Exception as e:
@@ -172,12 +170,6 @@ class Application(customtkinter.CTk):
         except Exception as e:
             logging.exception("Failed to create response canvas for DALL-E.")
 
-        # After setting up the response_canvas in init_ui
-        self.response_canvas = tk.Canvas(self, width=250, height=self.response_text.winfo_height(), bg='gray13', highlightthickness=0)
-        # Now grid the canvas to show the default image for ChatGPT
-        self.response_canvas.grid(row=0, column=1, columnspan=3, rowspan=3, padx=(10, 10), pady=(10, 0), sticky="nsew")
-
-
 
 
 
@@ -206,7 +198,6 @@ class Application(customtkinter.CTk):
             self.question_entry.delete(0, END)
             if question:
                 if self.radio_var.get() == 0:
-                    self.switch_to_textbox()
                     self.db.add_question(question)
                     self.load_history()
                     Thread(target=self.fetch_response, args=(question,)).start()
@@ -358,11 +349,9 @@ class Application(customtkinter.CTk):
             self.response_text.grid_remove()
             self.response_canvas.grid_remove()
 
-            if self.radio_var.get() == 0:  # If ChatGPT is selected
-                self.response_canvas.grid()  # Show the canvas
-                self.display_image_on_canvas(
-                    "assets/ChatGpt.png")  # Replace with the path to your default image
-                self.response_text.delete("1.0", tk.END)
+            if self.radio_var.get() == 0:
+                self.response_text.grid(row=0, column=1, columnspan=3, rowspan=3, padx=(10, 10), pady=(10, 0),
+                                        sticky="nsew")
             else:
                 self.after(100, self.load_dalle_image)
                 self.response_canvas.grid(row=0, column=1, columnspan=3, rowspan=3, padx=(10, 10), pady=(10, 0),
@@ -429,42 +418,6 @@ class Application(customtkinter.CTk):
                     messagebox.showerror("Download failed", "Failed to save the image.")
         else:
             messagebox.showinfo("No image", "There is no image to download.")
-
-    def load_default_chatgpt_image(self):
-        # Assuming you have a default image path "assets/chatgpt_default.png"
-        default_image_path = "assets/ChatGpt.png"
-        self.display_image_on_canvas(default_image_path)
-
-    def display_image_on_canvas(self, image_path):
-        try:
-            # Load the image from the file
-            image = Image.open(image_path)
-
-            # Compute the size to resize the image, ensuring canvas has been drawn
-            canvas_width = self.response_canvas.winfo_width()
-            canvas_height = self.response_canvas.winfo_height()
-
-            # Check if the canvas has default tkinter size, which means it hasn't been drawn yet
-            if canvas_width > 1 and canvas_height > 1:
-                # Canvas is ready, resize the image
-                image = image.resize((canvas_width, canvas_height), Image.Resampling.LANCZOS)
-            else:
-                # Canvas is not ready, don't resize, instead schedule a call to this method
-                self.after(100, self.display_image_on_canvas, image_path)
-                return
-
-            # Create a PhotoImage object from the loaded image
-            self.canvas_image = ImageTk.PhotoImage(image)  # Keep a reference to the image
-
-            # Display the image on the canvas, anchor at northwest corner
-            self.response_canvas.create_image(0, 0, anchor=tk.NW, image=self.canvas_image)
-
-        except Exception as e:
-            self.logger.error(f"Error loading default ChatGPT image: {e}")
-
-    def switch_to_textbox(self):
-        self.response_canvas.grid_remove()  # Hide the canvas
-        self.response_text.grid(row=0, column=1, columnspan=3, rowspan=3, padx=(10, 10), pady=(10, 0), sticky="nsew")
 
 
 

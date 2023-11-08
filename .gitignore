@@ -140,6 +140,10 @@ cython_debug/
 /data/
 .idea/*
 
+/dist/
+/build/
+/config/
+
 
 
 

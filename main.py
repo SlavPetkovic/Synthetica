@@ -16,8 +16,6 @@ def main():
         # Start the tkinter event loop
         app.mainloop()
     except Exception as e:
-        # If an exception occurs during the execution of the application
-        # Log the exception with a message indicating an error occurred during application execution
         logging.exception("An error occurred during application execution")
     finally:
         pass
